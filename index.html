@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aida Hassanzadeh - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .rtl {
+      direction: rtl;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+    .lang-switch button {
+      margin-left: 1rem;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="lang-switch">
+    <button onclick="switchLang('en')">English</button>
+    <button onclick="switchLang('fa')">فارسی</button>
+  </div>
+
+  <!-- English Version -->
+  <div id="en" class="lang">
+    <h1>Aida Hassanzadeh</h1>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a Computer Engineering graduate from Bahar Non-Profit University, proficient in Python programming with hands-on experience gained through an in-person training course. I am fluent in English, enabling me to work with international documentation and collaborate effectively.
+        I worked on a real-world software project for a book café, where I used tools like Qt Designer and SQL database, including cursor-based data operations.
+      </p>
+    </section>
+
+    <section>
+      <h2>Career Objective</h2>
+      <p>
+        I aim to join software development teams as a Python developer and grow in UI design and data management. I'm looking for opportunities where I can contribute to real-world problem-solving and enhance my technical skills.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>Python Developer</strong> - Project for Book Café (2023)
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>Bachelor's Degree in Computer Engineering, Bahar Non-Profit University</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>Qt Designer</li>
+        <li>SQL & Cursors</li>
+        <li>English (Fluent)</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Persian Version -->
+  <div id="fa" class="lang rtl" style="display: none;">
+    <h1>آیدا حسن‌زاده</h1>
+
+    <section>
+      <h2>درباره من</h2>
+      <p>
+        من آیدا حسن‌زاده، فارغ‌التحصیل مهندسی کامپیوتر از دانشگاه غیرانتفاعی بهار هستم. به زبان برنامه‌نویسی Python مسلط هستم و دوره حضوری این زبان را با موفقیت گذرانده‌ام. همچنین به زبان انگلیسی تسلط دارم که به من در یادگیری منابع تخصصی کمک کرده است. 
+        در پروژه‌ای برای یک کافه‌کتاب شرکت داشته‌ام که شامل طراحی رابط کاربری با Qt Designer و کار با پایگاه داده SQL و cursor بوده است.
+      </p>
+    </section>
+
+    <section>
+      <h2>هدف شغلی</h2>
+      <p>
+        هدف من ورود به تیم‌های توسعه نرم‌افزار به‌عنوان برنامه‌نویس Python و رشد در زمینه طراحی رابط کاربری و مدیریت داده‌هاست. به دنبال فرصت‌هایی برای کسب تجربه بیشتر و حل مسائل واقعی هستم.
+      </p>
+    </section>
+
+    <section>
+      <h2>سوابق شغلی</h2>
+      <ul>
+        <li>
+          <strong>برنامه‌نویس پایتون</strong> - پروژه برای کافه‌کتاب (۱۴۰۲)
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>تحصیلات</h2>
+      <p>کارشناسی مهندسی کامپیوتر، دانشگاه غیرانتفاعی بهار</p>
+    </section>
+
+    <section>
+      <h2>مهارت‌ها</h2>
+      <ul>
+        <li>Python</li>
+        <li>Qt Designer</li>
+        <li>SQL و cursor</li>
+        <li>زبان انگلیسی (پیشرفته)</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.lang').forEach(div => div.style.display = 'none');
+      document.getElementById(lang).style.display = 'block';
+    }
+  </script>
+</body>
+</html>
