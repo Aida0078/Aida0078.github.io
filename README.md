@@ -32,6 +32,6 @@
 
 ## 📫 راه‌های ارتباطی
 
-- 📧 ایمیل: aidahasanzadeh82@gmail.com  
+- 📧 ایمیل: aidahasanzadeh.dev@gmail.com 
 - 💼 لینکدین: www.linkedin.com/in/aida-hasanzadeh-881273331  
 - 💻 گیت‌هاب: [github.com/Aida0078](https://github.com/yourusername)
